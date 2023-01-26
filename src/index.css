@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(240, 248, 255, 0.886);
+  background-image: url(Digital.jpg);
+  background-attachment: fixed;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  background:repeating-linear-gradient(rgb(96, 146, 234), rgb(0, 98, 255));
+}
+.nav-link{
+  color: white;
+}
+.nav-link:focus{
+  color: white;
+  font-weight: bold;
+}
+.card{
+  border-radius: 13px;
+  background-color: white;
+} 
+.card:hover{
+  background-color: rgb(219, 246, 252);
+  /* transform:scaleZ(1); */
+} 
+.NewsItem{
+  border: 2px solid rgb(90, 155, 235);
+  border-radius: 13px;
+}
+.text-center{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.readmore{
+  background:repeating-linear-gradient(rgb(105, 157, 247), rgb(0, 98, 255));
+  font-weight: bold;
 }
